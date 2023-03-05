@@ -1,0 +1,41 @@
+
+Comparison of parameter 'Slope' 
+
+         Estimate Std. Error t-value p-value
+CTRL-50%  1.57668    8.00702  0.1969  0.8445
+CTRL-75% -0.54249    0.83720 -0.6480  0.5191
+50%-75%  -2.11918    8.02564 -0.2641  0.7925
+[1] "\n"
+
+Comparison of parameter 'Upper Limit' 
+
+         Estimate Std. Error t-value   p-value    
+CTRL-50% 0.201800   0.019859 10.1615 1.413e-15 ***
+CTRL-75% 0.344240   1.622120  0.2122    0.8325    
+50%-75%  0.142440   1.622104  0.0878    0.9303    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "\n"
+
+Comparison of parameter 'T50' 
+
+         Estimate Std. Error t-value p-value
+CTRL-50%   1.7788     8.2261  0.2162  0.8294
+CTRL-75% -21.8087    39.0408 -0.5586  0.5782
+50%-75%  -23.5875    39.8937 -0.5913  0.5562
+[1] "\n"
+
+	 Simultaneous Confidence Intervals
+
+Fit: NULL
+
+Quantile = 2.3876
+95% family-wise confidence level
+ 
+
+Linear Hypotheses:
+               Estimate lwr      upr     
+e:50%:50 == 0   13.4474  -6.1682  33.0630
+e:75%:50 == 0   37.0349 -56.1733 130.2431
+e:CTRL:50 == 0  15.2262  14.2359  16.2165
+
